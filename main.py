@@ -89,7 +89,7 @@ while True:
     print("3. Search Contacts")
     print("4. Delete a Contact")
     print("5. Edit a Contact")
-    print("6. Exit")
+    print("0. Exit")
 
     choice = input("Enter your choice (1-6): ")
 
@@ -103,7 +103,8 @@ while True:
         delete_contact()
     elif choice == '5':
         edit_contact()
-    elif choice == '6':
+    elif choice == '0':
+        print("Thank you for using the system")
         break
     else:
         print("Invalid choice. Please try again.\n")
